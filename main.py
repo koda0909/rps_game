@@ -129,7 +129,8 @@ def main():
         else:
             co_wins = 0     # 연승기록 초기화
 
-        print(f"\n현재연승: {co_wins}연승")
+        if co_wins > 0:
+            print(f"\n현재연승: {co_wins}연승")
 
         if not ask_play_again():
             break
