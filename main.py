@@ -85,7 +85,7 @@ def play_game(name):
         show_result(name, user_number, computer_number, result)
         show_score(name, my_wins, computer_wins)
 
-show_final_result(name, my_wins, computer_wins)
+    show_final_result(name, my_wins, computer_wins)
 
 
 # 게임의 전체 루프
